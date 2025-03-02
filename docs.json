@@ -7,89 +7,52 @@
     "light": "#60A5FA",
     "dark": "#2563EB"
   },
-  "favicon": "/logo.webp",
+  "favicon": "/logo/logo.webp",
   "navigation": {
     "tabs": [
       {
-        "tab": "Product Guides",
+        "tab": "Product Documentation",
         "groups": [
           {
             "group": "Getting Started",
             "pages": [
-              "introduction",
-              "organization-setup",
-              "dashboard-overview"
+              "docs/introduction",
+              "docs/organization-setup",
+              "docs/dashboard-overview"
             ]
           },
           {
             "group": "Donation Management",
             "pages": [
-              "donation-management/projects",
-              "donation-management/donations",
-              "donation-management/payouts",
-              "donation-management/ramadan-iftar"
+              "docs/donation-management/projects",
+              "docs/donation-management/donations",
+              "docs/donation-management/payouts",
+              "docs/donation-management/ramadan-iftar"
             ]
           },
           {
             "group": "Device Management",
             "pages": [
-              "device-management/terminals",
-              "device-management/kiosks",
-              "device-management/troubleshooting"
+              "docs/device-management/terminals",
+              "docs/device-management/kiosks",
+              "docs/device-management/troubleshooting"
             ]
           },
           {
             "group": "Online Donation Pages",
             "pages": [
-              "online-donations/setup",
-              "online-donations/customization",
-              "online-donations/sharing"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction",
-              "api-reference/authentication"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/organizations",
-              "api-reference/donations",
-              "api-reference/projects",
-              "api-reference/terminals",
-              "api-reference/kiosks",
-              "api-reference/webhooks"
+              "docs/online-donations/setup",
+              "docs/online-donations/customization",
+              "docs/online-donations/sharing"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Dashboard",
-          "href": "https://dash.khayr.tech",
-          "icon": "gauge"
-        },
-        {
-          "anchor": "Support",
-          "href": "mailto:support@khayr.tech",
-          "icon": "envelope"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo.webp",
-    "dark": "/logo.webp"
+    "light": "/logo/logo.webp",
+    "dark": "/logo/logo.webp"
   },
   "navbar": {
     "links": [
