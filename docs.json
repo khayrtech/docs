@@ -42,8 +42,7 @@
             "group": "Online Donation Pages",
             "pages": [
               "docs/online-donations/setup",
-              "docs/online-donations/customization",
-              "docs/online-donations/sharing"
+              "docs/online-donations/customization"
             ]
           }
         ]
